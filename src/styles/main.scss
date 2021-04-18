@@ -1,0 +1,27 @@
+$body-bg: #fff;
+$size: 20px;
+
+body {
+	background: $body-bg;
+	font-size: $size;
+	&.dark {
+		$body-bg: #000;
+		background: $body-bg;
+	}
+}
+
+p {
+	margin: 0px;
+	a {
+		text-decoration: none;
+		font-size: $size - 10;
+		&[href] {
+			color: blue;
+			&:hove {
+				color: red;
+			}
+		}
+	}
+}
+
+@import 'tables';
