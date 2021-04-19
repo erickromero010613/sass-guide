@@ -1,5 +1,3 @@
-# sass-guide
-
 ## Tabla de Contenido
 - [Diferencias entre Sass, Stylus y Less](#diferencias-entre-sass-stylus-y-less)
 - [Estructura de CSS](#estructura-de-css)
