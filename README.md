@@ -1,20 +1,3 @@
-## Tabla de Contenido
-- [Diferencias entre Sass, Stylus y Less](#diferencias-entre-sass-stylus-y-less)
-- [Estructura de CSS](#estructura-de-css)
-- [Variables](#variables)
-  - [Escapar una variable](#escapar-una-variable)
-- [Anidaciones](#anidaciones)
-- [Mixins](#mixins)
-  - [Content](#content)
-- [Extend](#extend)
-- [Funciones](#funciones)
-  - [Crear funciones](#crear-funciones)
-- [Array](#array)
-- [Controles de Flujo](#controles-de-flujo)
-  - [each](#each)
-  - [for](#for)
-  - [if](#if)
-
 ## Diferencias entre Sass, Stylus y Less
 
 Existen muchos preprocesadores css. Entre ellos podemos encontrar:
@@ -29,10 +12,6 @@ Cuando trabajamos con preprocesadores se tiene que compilar el código para tran
 
 los archivos de sass tienen las extensión `.scss`.
 
-<div align="right">
-  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
-</div>
-
 ## Estructura de CSS
 
 Una ventaja que trae Sass es el poder organizar mejor nuestros archivos. Esto lo podemos lograr separando nuestros estílos en múltiples archivos. De tal modo, ya no tenemos que revisar un archivo muy amplio, sino que podemos separar nuestros estilos en varios módulos haciendo el trabajo mucho más fácil.
@@ -44,10 +23,6 @@ La forma de nombrar los archivos que van a ser importados es con un `_` al inici
 ```scss
 @import "_nombre_archivo.scss"
 ```
-
-<div align="right">
-  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
-</div>
 
 ## Variables
 
@@ -71,10 +46,6 @@ body {
 
 Como su nombre indica, BEM distingue claramente 3 conceptos: el Bloque, el Elemento y el Modificador.
 
-<div align="right">
-  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
-</div>
-
 ### Escapar una variable
 
 Para escapar una variable se usa el comodín `#`. 
@@ -88,10 +59,6 @@ div {
   content: "#{$size}"
 }
 ```
-
-<div align="right">
-  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
-</div>
 
 ## Anidaciones
 
@@ -108,10 +75,6 @@ div {
 ```
 
 El comodín `&` se usa para hacer referencia al padre.
-
-<div align="right">
-  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
-</div>
 
 ## Mixins
 
@@ -132,10 +95,6 @@ En este caso le estamos definiendo un valor por defecto. Si deseamos cambiar ese
 ```scss
 @mixin max-width(1200px)
 ```
-
-<div align="right">
-  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
-</div>
 
 ### Content
 
@@ -160,10 +119,6 @@ section {
 }
 ```
 
-<div align="right">
-  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
-</div>
-
 ## Extend
 
 Permiten que una declaración herede estilos declarados por otra regla o placeholder. Los extend se declaran con el símbolo de porcentaje `%`.
@@ -180,10 +135,6 @@ Permiten que una declaración herede estilos declarados por otra regla o placeho
 }
 ```
 
-<div align="right">
-  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
-</div>
-
 ## Funciones
 
 Sass tiene muchas funciones que podemos usar cuando estamos modificando CSS. Muchas de estas funciones son muy útiles como por ejemplo aclarar un color u oscurecerlo. 
@@ -197,10 +148,6 @@ invert(#ffffff)
 La lista completa de funciones se pueden ver aquí:
 https://sass-lang.com/documentation/file.SASS_REFERENCE.html#functions
 
-<div align="right">
-  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
-</div>
-
 ### Crear funciones
 
 ```scss
@@ -212,10 +159,6 @@ https://sass-lang.com/documentation/file.SASS_REFERENCE.html#functions
   padding: suma(10px, 5px);
 }
 ```
-
-<div align="right">
-  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
-</div>
 
 ## Array
 
@@ -235,10 +178,6 @@ small {
   font-size: map-get($fs, x-small);
 }
 ```
-
-<div align="right">
-  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
-</div>
 
 ## Controles de Flujo
 
@@ -267,10 +206,6 @@ y esto da como resultado:
   font-weight: italic;
 }
 ```
-
-<div align="right">
-  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
-</div>
 
 ### for
 
@@ -302,10 +237,6 @@ Resultado:
 }
 ```
 
-<div align="right">
-  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
-</div>
-
 ### if
 
 ```scss
@@ -322,7 +253,3 @@ $background-color: black;
   }
 }
 ```
-
-<div align="right">
-  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
-</div>
