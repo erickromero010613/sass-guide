@@ -1,5 +1,5 @@
 {
-    "name": "style-guide",
+    "name": "sass-guide",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
@@ -7,7 +7,7 @@
         "sass": "sass --watch ./src/styles/main.scss ./dist/css/main.css",
         "build": "webpack --config webpack.config.js"
     },
-    "keywords": [],
+    "keywords": ['sass', 'css'],
     "author": "Omar Villafuerte <ovillafuerte.94@gmail.com>",
     "license": "MIT",
     "devDependencies": {
