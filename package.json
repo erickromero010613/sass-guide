@@ -7,7 +7,7 @@
         "sass": "sass --watch ./src/styles/main.scss ./dist/css/main.css",
         "build": "webpack --config webpack.config.js"
     },
-    "keywords": ['sass', 'css'],
+    "keywords": ["sass", "css"],
     "author": "Omar Villafuerte <ovillafuerte.94@gmail.com>",
     "license": "MIT",
     "devDependencies": {
