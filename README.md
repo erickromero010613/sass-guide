@@ -234,7 +234,7 @@ p {
 }
 
 small {
-  font.size: map-get($fs, x-small);
+  font-size: map-get($fs, x-small);
 }
 ```
 
@@ -250,7 +250,7 @@ small {
 $font-weights: normal bold italic;
 
 @each $font in ($font-weights) {
-  .#{$font} {font.weight: $font;}
+  .#{$font} {font-weight: $font;}
 }
 ```
 
