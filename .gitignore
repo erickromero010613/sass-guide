@@ -10,7 +10,7 @@ lerna-debug.log*
 node_modules/
 
 # generate output
-dist
+public/assets/
 
 # dotenv environment variables file
 .env

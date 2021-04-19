@@ -1,3 +1,3 @@
-console.log('Arrancada la aplicación compilando SaSS');
+import "./scss/main.scss";
 
-import './styles/main.scss';
+console.log("Hola Mundo!");
