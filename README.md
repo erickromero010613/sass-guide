@@ -12,7 +12,7 @@ Cuando trabajamos con preprocesadores se tiene que compilar el código para tran
 
 los archivos de sass tienen las extensión `.scss`.
 
-## Estructura de CSS
+## Estructura de SASS
 
 Una ventaja que trae Sass es el poder organizar mejor nuestros archivos. Esto lo podemos lograr separando nuestros estílos en múltiples archivos. De tal modo, ya no tenemos que revisar un archivo muy amplio, sino que podemos separar nuestros estilos en varios módulos haciendo el trabajo mucho más fácil.
 
